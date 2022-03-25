@@ -3,7 +3,7 @@ package hw3;
 public class NumberN {
 
     public static void main(String[] args) {
-        int n = 25;
+        int n = 3;
         System.out.println("Факториал числа " + n + " равен " + factorial(n));
         System.out.println("Факториал числа " + n + " равен " + factorialByRecursion(n));
     }
