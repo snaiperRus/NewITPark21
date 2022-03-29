@@ -10,6 +10,5 @@ public class ScannerRunner {
         System.out.println("Добро пожаловать, " + userName + " , введите число для расчёта: ");
         int value = scanner.nextInt();
         System.out.println("Подтверждаем, что Вы ввели " + value);
-
     }
 }

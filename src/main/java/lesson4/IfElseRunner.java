@@ -12,5 +12,6 @@ public class IfElseRunner {
         } else {
             value = 14;
         }
+        System.out.println(value);
     }
 }
