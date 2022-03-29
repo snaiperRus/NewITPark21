@@ -6,12 +6,23 @@ public class sqrt {
     }
 
     public static int findSqrt(int a) {
-        if (a < 2) return a;
-        int i=1;
-        while (i*i<=a){
-            if(i*i<=0) break;
-            i++;
+        int i;
+        for (i = 1; i <= a; i++)
+            if (i * i == a) {
+                break;
+            }
+        {
+            return i;
         }
-        return --i;
     }
 }
+
+//        int i = 1;
+//        while (i * i <= a) {
+//            if (i * i == a)
+//                break;
+//            i++;
+//        }
+//        return i;
+//    }
+//}
