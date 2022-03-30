@@ -33,6 +33,13 @@ public class PrimeNumberRunner {
                 isPrime = true; // или удалить строчку
             }                   // или удалить строчку
         }                       // или удалить строчку
-         return isPrime;        // или поменять isPrime на true
+        return isPrime;        // или поменять isPrime на true
+    }
+
+    public static int div(int arg1, int arg2) {
+        if (arg2 == 0) {
+            return -1;
+        }
+        return arg1 / arg2 ;
     }
 }
