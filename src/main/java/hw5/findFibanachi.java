@@ -15,6 +15,6 @@ public class findFibanachi {
             a1 = a2;
             a2 = a3;
         }
-        System.out.println(a2);
+        System.out.println("Число Фибаначчи " + a2);
     }
 }
