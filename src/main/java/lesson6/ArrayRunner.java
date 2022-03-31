@@ -23,7 +23,10 @@ public class ArrayRunner {
         double[] doubleArray = new double[]{0.1, 25.1, 78};
         System.out.println(Arrays.toString(doubleArray));
         String[] strings = {"Привет", "мир"};
+        String string = strings[strings.length -1];
+        System.out.println(string);
         System.out.println(Arrays.toString(strings));
+        System.out.println(weekDays().length);
     }
 
     public static void printArray(char[] symbols) {
@@ -32,7 +35,6 @@ public class ArrayRunner {
         for (char symbol : symbols) {
             System.out.println(symbol);
         }
-
     }
 
     public static void fillArray(char[] symbols) {
@@ -61,7 +63,6 @@ public class ArrayRunner {
     public static String[] weekDays() {
 //        Math.random(); // [0, 1]
         Random random = new Random();
-
-        return random.nextBoolean() ? new String[]{"Mon", "Tue"} : null;
+        return random.nextBoolean() ? new String[]{"Mon", "Tue"} : new String[]{};
     }
 }
